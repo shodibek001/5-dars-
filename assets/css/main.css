@@ -1,0 +1,574 @@
+@font-face {
+    font-family: Inter;
+    src: url("../fonts/Inter-Medium.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container .header {
+    padding: 17px 165px 35px 165px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .header .cards1 {
+    display: flex;
+    gap: 25px;
+}
+
+.container .header .cards1 .cards {
+    display: flex;
+    gap: 8px;
+}
+
+.container .header .cards1 .cards .card {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.container .header .cards1 .cards .card1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .header .cards1 .cards .card1 .car {
+    color: rgba(51, 51, 51, 0.7);
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.container .hr {
+    padding: 0px 165px;
+}
+
+.container .main {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 165px;
+}
+
+.container .main .logo {
+    text-decoration: none;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.container .main .item {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    color: #333;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.container .main .item .item_list:hover {
+    color: rgb(255, 0, 0);
+}
+
+.container .main .btn {
+    width: 179px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background-color: #ff0000;
+    border: 1px solid #00d0ff;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    top: -10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.container .main .btn:hover {
+    background-color: #ff0000;
+    color: #000000;
+    transition: 0.5s;
+}
+
+.container .nav {
+    display: flex;
+    padding-top: 77px;
+    padding-left: 165px;
+}
+
+.container .nav .nav_item_list {
+    width: 480px;
+    color: #333;
+    font-feature-settings: "liga" off;
+    font-family: sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 76px;
+    padding-bottom: 25px;
+}
+
+.container .nav .nav_item_list1 {
+    color: rgba(51, 51, 51, 0.8);
+    font-feature-settings: "liga" off;
+    font-family: sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 70px;
+}
+
+.container .nav .btn {
+    display: flex;
+    padding: 11px 37px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #00d0ff;
+    border-radius: 8px;
+    background: #00d0ff;
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: "liga" off;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    transition: 0.5s;
+}
+
+.container .nav .btn:hover {
+    background-color: #00d0ff;
+    color: #000000;
+    transition: 0.5s;
+}
+
+.container .nav .item2 {
+    width: 700px;
+    height: 530px;
+    position: relative;
+}
+
+.container .section {
+    padding: 30px 200px;
+}
+
+.container .section .section_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .section .section_item .section_item_list {
+    color: #333;
+    text-align: center;
+    font-feature-settings: "liga" off;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.container .section .section_item .section_item_list_ {
+    color: rgba(51, 51, 51, 0.8);
+    text-align: center;
+    font-feature-settings: "liga" off;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 43px;
+}
+
+.container .section_ {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 36px;
+}
+
+.container .section_ .section_1 {
+    border-radius: 9px;
+    background: #F4F6FA;
+    position: relative;
+    left: -70px;
+    display: flex;
+    padding-top: 25px;
+    padding-left: 28px;
+}
+
+.container .section_ .section_1 .section_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container .section_ .section_1 .section_2 .section_p {
+    width: 360px;
+    color: #333;
+    font-feature-settings: "liga" off;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.container .section_ .section_1 .section_2 .section_p_t1 {
+    width: 180px;
+    color: rgba(51, 51, 51, 0.8);
+    font-feature-settings: "liga" off;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 113px;
+}
+
+.container .section_ .section_1 .section_2 .section_p_t {
+    width: 222px;
+    color: rgba(51, 51, 51, 0.8);
+    font-feature-settings: "liga" off;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 113px;
+}
+
+.container .section_ .section_3 {
+    margin-left: -90px;
+    border-radius: 9px;
+    background: url(<path-to-image>), lightgray 50%/cover no-repeat;
+    mix-blend-mode: multiply;
+    border-bottom-right-radius: 9px;
+}
+
+.container .section_ .section_4 {
+    margin-left: -220px;
+    border-bottom-right-radius: 9px;
+}
+
+.container .section_ .section_5 {
+    margin-left: -176px;
+    border-bottom-right-radius: 9px;
+    background: url(<path-to-image>), lightgray 50%/cover no-repeat;
+    mix-blend-mode: multiply;
+}
+
+.container .section_ .section_6 {
+    width: 219px;
+    height: 174px;
+    flex-shrink: 0;
+    margin-top: 80px;
+    margin-left: -80px;
+}
+
+.container .section_main {
+    padding: 67px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .section_main .section_main_p {
+    width: 540px;
+    color: #333;
+    font-feature-settings: "liga" off;
+    font-family: sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+
+.container .section_main .section_main_p_ {
+    width: 576px;
+    color: rgba(51, 51, 51, 0.8);
+    font-feature-settings: "liga" off;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 180px;
+}
+
+.container .section_main_item {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .section_main_item .rasm {
+    display: flex;
+    gap: 160px;
+}
+
+.container .section_main_item .rasm .rasm1 {
+    width: 139px;
+    height: 127px;
+}
+
+.container .section_main_item .rasm .rasm2 {
+    width: 175.75px;
+    height: 101.99px;
+    flex-shrink: 0;
+}
+
+.container .section_main_item .rasm3 {
+    width: 131px;
+    height: 74px;
+    flex-shrink: 0;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.container .section_main_item .rasm4 {
+    width: 176px;
+    height: 48px;
+    flex-shrink: 0;
+    margin-top: 90px;
+}
+
+.container .section_main_item .rasm5 {
+    width: 141px;
+    height: 161px;
+    flex-shrink: 0;
+    margin-top: 30px;
+}
+
+.container .ulugbek {
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .ulugbek .ulugbek_item {
+    padding-top: 96px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+
+.container .ulugbek .ulugbek_item .ulugbek_p {
+    color: #333;
+    font-feature-settings: "liga" off;
+    font-family: sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.container .ulugbek2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    gap: 30px;
+}
+
+.container .ulugbek2 .ulugbek_item {
+    color: #333;
+    text-align: center;
+    font-feature-settings: "liga" off;
+    font-family: sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.container .ulugbek3 {
+    margin-top: 55px;
+    background-image: url("../img/truck-driver-opening-reservoir-tank-refuel-truck-holding-thumbs-up 1.png");
+    background-repeat: no-repeat;
+    padding: 70px 165px 70px 664px;
+}
+
+.container .ulugbek3 .ulugbek_item_3 {
+    width: 611px;
+    height: 548px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FFF;
+    padding: 39px 71px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .ulugbek3 .ulugbek_item_3 .ulugbek_p {
+    width: 467px;
+    color: #333;
+    font-feature-settings: "liga" off;
+    font-family: sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 16px;
+}
+
+.container .ulugbek3 .ulugbek_item_3 .p {
+    color: rgba(51, 51, 51, 0.8);
+    font-feature-settings: "liga" off;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 35px;
+}
+
+.container .ulugbek3 .ulugbek_item_3 form {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.container .ulugbek3 .ulugbek_item_3 form .input_text {
+    width: 469px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(71, 98, 255, 0.08);
+    padding: 19px 22px;
+    color: #979797;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid rgb(255, 1, 1);
+    cursor: pointer;
+}
+
+.container .ulugbek3 .ulugbek_item_3 form .input_text1 {
+    width: 469px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #000000;
+    color: white;
+    padding: 19px 22px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid  rgb(255, 1, 1);
+    cursor: pointer;
+}
+
+.container .ulugbek4 {
+    padding: 50px 146px;
+    background: #1A1A1A;
+}
+
+.container .ulugbek4 .logo {
+    cursor: pointer;
+}
+
+.container .ulugbek4 .footer {
+    display: flex;
+    gap: 100px;
+    padding-left: 250px;
+    margin-top: -40px;
+}
+
+.container .ulugbek4 .footer .footer_p {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    display: flex;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.container .ulugbek4 .footer .p {
+    padding-bottom: 8px;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.container .ulugbek4 .footer .footer_item_list1 {
+    display: flex;
+    padding-top: 15px;
+}
+
+.container .ulugbek4 .footer .footer_item_list1 .footer_item_list2 {
+    padding-left: 5px;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.container .ss {
+    width: 1050px;
+    height: 1px;
+    background-color: white;
+    margin-top: 67px;
+}
+
+.container .p_item {
+    width: 350px;
+    text-decoration: none;
+    color: #D9DBE1;
+    font-feature-settings: "liga" off;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+/*# sourceMappingURL=main.css.map */
